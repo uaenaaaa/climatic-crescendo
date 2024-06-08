@@ -1,5 +1,6 @@
 import SearchBox from '@/components/SearchBox';
 import { ThemeToggle } from '@/components/ThemeToggler';
+import WeatherInfoContainer from '@/components/WeatherInfoContainer';
 import Image from 'next/image';
 
 export default function Home() {
@@ -10,6 +11,8 @@ export default function Home() {
 				<ThemeToggle />
 			</div>
 			<SearchBox />
+
+			<WeatherInfoContainer />
 		</div>
 	);
 }
