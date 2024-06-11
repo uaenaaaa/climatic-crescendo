@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardContent, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import {
 	SunnyAndCloudyIcon,
 	BlizzardIcon,
@@ -138,8 +138,10 @@ const WeatherDegreeIcon = ({
 		parseInt(local_time.split(' ')[1].split(':')[0]) < 18;
 	return (
 		<Card>
-			<CardContent>
+			<CardHeader>
 				<CardTitle>Temperature</CardTitle>
+			</CardHeader>
+			<CardContent>
 				<h1>{condition}</h1>
 				<div className='flex items-center justify-center'>
 					{WeatherIconMapping[code][isDay ? 'day' : 'night']}

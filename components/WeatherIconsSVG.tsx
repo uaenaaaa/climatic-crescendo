@@ -12,15 +12,15 @@ export const BlizzardIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='#8F8F8F'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M28 14c0-3.31-2.69-6-6-6h-2v4h2c1.1 0 2 .9 2 2s-.9 2-2 2H5v4h17c3.31 0 6-2.69 6-6ZM13 28H5v4h8c1.1 0 2 .9 2 2s-.9 2-2 2h-2v4h2c3.31 0 6-2.69 6-6s-2.69-6-6-6Zm-8-6h32c3.31 0 6 2.69 6 6s-2.69 6-6 6h-2v-4h2c1.1 0 2-.9 2-2s-.9-2-2-2H5v-4Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='m32.7 31.87-1-1.74-3.7 2.14V28h-2v4.27l-3.7-2.14-1 1.74L25 34l-3.7 2.13 1 1.74 3.7-2.13V40h2v-4.26l3.7 2.13 1-1.74L29 34l3.7-2.13Zm9-20-1-1.74-3.7 2.14V8h-2v4.27l-3.7-2.14-1 1.74L34 14l-3.7 2.13 1 1.74 3.7-2.13V20h2v-4.26l3.7 2.13 1-1.74L38 14l3.7-2.13Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 	</svg>
 );
@@ -33,15 +33,15 @@ export const BlowingSnowIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='#8F8F8F'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M22 11c3.31 0 6 2.69 6 6s-2.69 6-6 6H5v-4h17c1.1 0 2-.9 2-2s-.9-2-2-2h-2v-4h2ZM5 25h32c3.31 0 6 2.69 6 6s-2.69 6-6 6h-2v-4h2c1.1 0 2-.9 2-2s-.9-2-2-2H5v-4Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='m41.7 14.87-1-1.74-3.7 2.14V11h-2v4.27l-3.7-2.14-1 1.74L34 17l-3.7 2.13 1 1.74 3.7-2.13V23h2v-4.26l3.7 2.13 1-1.74L38 17l3.7-2.13Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 	</svg>
 );
@@ -66,15 +66,15 @@ export const ClearDayIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.016'
-					stop-color='#FFBB29'
+					stopColor='#FFBB29'
 				/>
 				<stop
 					offset='.531'
-					stop-color='#FCB224'
+					stopColor='#FCB224'
 				/>
 				<stop
 					offset='.99'
-					stop-color='#E47100'
+					stopColor='#E47100'
 				/>
 			</radialGradient>
 		</defs>
@@ -89,9 +89,9 @@ export const ClearNightIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='url(#a)'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M25.85 1c-3.232 3.937-5.164 8.932-5.164 14.367 0 12.706 10.558 23.006 23.582 23.006.245 0 .489-.004.732-.01C40.678 43.627 34.034 47 26.582 47 13.558 47 3 36.7 3 23.995 3 11.528 13.164 1.377 25.85 1Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<defs>
 			<linearGradient
@@ -101,10 +101,10 @@ export const ClearNightIcon = ({ className }: SVGProps) => (
 				y1='1'
 				y2='57.046'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#A8C7FA' />
+				<stop stopColor='#A8C7FA' />
 				<stop
 					offset='.344'
-					stop-color='#4C8DF6'
+					stopColor='#4C8DF6'
 				/>
 			</linearGradient>
 		</defs>
@@ -119,9 +119,9 @@ export const CloudyWithRainIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='url(#a)'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M30.406 31.085c-3.405 3.576-3.313 9.143.275 12.611 3.682 3.559 9.652 3.559 13.334 0 3.682-3.559 3.682-9.328 0-12.887a6.223 6.223 0 0 0-.059-.056l-4.511-4.36a15.969 15.969 0 0 1-9.04 4.692Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='url(#b)'
@@ -143,10 +143,10 @@ export const CloudyWithRainIcon = ({ className }: SVGProps) => (
 				y1='24.365'
 				y2='45.482'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#2E7AF5' />
+				<stop stopColor='#2E7AF5' />
 				<stop
 					offset='1'
-					stop-color='#0B57D0'
+					stopColor='#0B57D0'
 				/>
 			</linearGradient>
 			<linearGradient
@@ -157,12 +157,12 @@ export const CloudyWithRainIcon = ({ className }: SVGProps) => (
 				y2='26.553'
 				gradientUnits='userSpaceOnUse'>
 				<stop
-					stop-color='#80868B'
-					stop-opacity='0'
+					stopColor='#80868B'
+					stopOpacity='0'
 				/>
 				<stop
 					offset='1'
-					stop-color='#80868B'
+					stopColor='#80868B'
 				/>
 			</linearGradient>
 			<linearGradient
@@ -172,11 +172,11 @@ export const CloudyWithRainIcon = ({ className }: SVGProps) => (
 				y1='2.365'
 				y2='13.844'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#81878C' />
+				<stop stopColor='#81878C' />
 				<stop
 					offset='1'
-					stop-color='#C3C5C6'
-					stop-opacity='0'
+					stopColor='#C3C5C6'
+					stopOpacity='0'
 				/>
 			</linearGradient>
 			<radialGradient
@@ -186,14 +186,14 @@ export const CloudyWithRainIcon = ({ className }: SVGProps) => (
 				r='1'
 				gradientTransform='matrix(-20.82243 -21.00494 50.52926 -50.09023 34.207 25.62)'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#B4B4B4' />
+				<stop stopColor='#B4B4B4' />
 				<stop
 					offset='.298'
-					stop-color='#B4B4B4'
+					stopColor='#B4B4B4'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 		</defs>
@@ -208,9 +208,9 @@ export const CloudyWithSnowIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='#757575'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M35.68 29.896c.025-.014.05.019.03.039a.5.5 0 0 0-.146.354v1.29c0 .22.142.41.345.492.399.162.77.38 1.103.642.172.136.41.166.6.056l1.124-.65a.5.5 0 0 0 .233-.303l.836-3.12a.5.5 0 0 1 .613-.354l1.642.44a.5.5 0 0 1 .353.613l-.555 2.074a.5.5 0 0 0 .353.612l2.074.556a.5.5 0 0 1 .354.612l-.44 1.642a.5.5 0 0 1-.613.354l-3.12-.837a.5.5 0 0 0-.38.05l-1.132.654a.538.538 0 0 0-.253.544 4.59 4.59 0 0 1-.001 1.266.538.538 0 0 0 .252.545l1.134.655a.5.5 0 0 0 .38.05l3.12-.837a.5.5 0 0 1 .613.354l.44 1.642a.5.5 0 0 1-.354.612l-2.074.556a.5.5 0 0 0-.353.612l.556 2.075a.5.5 0 0 1-.354.612l-1.642.44a.5.5 0 0 1-.612-.354l-.837-3.12a.5.5 0 0 0-.233-.304l-1.131-.653a.538.538 0 0 0-.6.055c-.331.26-.7.476-1.096.637a.538.538 0 0 0-.345.491v1.301a.5.5 0 0 0 .146.354l2.285 2.284a.5.5 0 0 1 0 .708l-1.202 1.202a.5.5 0 0 1-.707 0l-1.519-1.519a.5.5 0 0 0-.707 0l-1.518 1.519a.5.5 0 0 1-.707 0l-1.202-1.202a.5.5 0 0 1 0-.708l2.284-2.284a.5.5 0 0 0 .147-.354v-1.287a.538.538 0 0 0-.35-.492 4.545 4.545 0 0 1-1.113-.64.538.538 0 0 0-.598-.054l-1.111.642a.5.5 0 0 0-.233.303l-.837 3.121a.5.5 0 0 1-.612.354l-1.642-.44a.5.5 0 0 1-.353-.613l.555-2.074a.5.5 0 0 0-.353-.612l-2.075-.556a.5.5 0 0 1-.353-.612l.44-1.643a.5.5 0 0 1 .612-.353l3.121.836a.5.5 0 0 0 .38-.05l1.101-.636c.19-.11.284-.33.252-.547a4.584 4.584 0 0 1 0-1.298.538.538 0 0 0-.253-.547l-1.1-.635a.5.5 0 0 0-.38-.05l-3.12.836a.5.5 0 0 1-.613-.353l-.44-1.642a.5.5 0 0 1 .353-.613l2.075-.555c.202-.055.394-.184.604-.184h1.481l.234-.014c.18-.007.358-.017.536-.03.224-.017.425.154.62.267l1.104.637c.19.11.426.081.598-.054a4.543 4.543 0 0 1 1.12-.645.538.538 0 0 0 .35-.492v-.297a.21.21 0 0 1 .145-.2 15.925 15.925 0 0 0 2.672-1.173Zm-3.331 6.389a1.848 1.848 0 1 1 3.695 0 1.848 1.848 0 0 1-3.695 0Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='url(#a)'
@@ -233,12 +233,12 @@ export const CloudyWithSnowIcon = ({ className }: SVGProps) => (
 				y2='27.167'
 				gradientUnits='userSpaceOnUse'>
 				<stop
-					stop-color='#80868B'
-					stop-opacity='0'
+					stopColor='#80868B'
+					stopOpacity='0'
 				/>
 				<stop
 					offset='1'
-					stop-color='#80868B'
+					stopColor='#80868B'
 				/>
 			</linearGradient>
 			<linearGradient
@@ -248,11 +248,11 @@ export const CloudyWithSnowIcon = ({ className }: SVGProps) => (
 				y1='2.977'
 				y2='14.457'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#81878C' />
+				<stop stopColor='#81878C' />
 				<stop
 					offset='1'
-					stop-color='#C3C5C6'
-					stop-opacity='0'
+					stopColor='#C3C5C6'
+					stopOpacity='0'
 				/>
 			</linearGradient>
 			<radialGradient
@@ -262,14 +262,14 @@ export const CloudyWithSnowIcon = ({ className }: SVGProps) => (
 				r='1'
 				gradientTransform='matrix(-20.82447 -21.007 50.53416 -50.09508 34.21 26.235)'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#B4B4B4' />
+				<stop stopColor='#B4B4B4' />
 				<stop
 					offset='.298'
-					stop-color='#B4B4B4'
+					stopColor='#B4B4B4'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 		</defs>
@@ -284,9 +284,9 @@ export const CloudyWithSunnyIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='url(#a)'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M40.881 25.078c.263-.36.728-.536 1.126-.336a4.641 4.641 0 0 1 2.55 3.834 4.64 4.64 0 0 0 1.133 2.737 4.64 4.64 0 0 1 0 6.102 4.64 4.64 0 0 0-1.134 2.737 4.64 4.64 0 0 1-4.315 4.315 4.64 4.64 0 0 0-2.737 1.134 4.64 4.64 0 0 1-6.102 0 4.64 4.64 0 0 0-2.737-1.134 4.64 4.64 0 0 1-4.316-4.315 4.64 4.64 0 0 0-1.133-2.737 4.642 4.642 0 0 1-.56-5.306c.157-.283.467-.436.79-.436h4.856l.234-.014a16.007 16.007 0 0 0 12.345-6.58Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='url(#b)'
@@ -310,15 +310,15 @@ export const CloudyWithSunnyIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.016'
-					stop-color='#FFBB29'
+					stopColor='#FFBB29'
 				/>
 				<stop
 					offset='.531'
-					stop-color='#FCB224'
+					stopColor='#FCB224'
 				/>
 				<stop
 					offset='.99'
-					stop-color='#E47100'
+					stopColor='#E47100'
 				/>
 			</radialGradient>
 			<radialGradient
@@ -328,14 +328,14 @@ export const CloudyWithSunnyIcon = ({ className }: SVGProps) => (
 				r='1'
 				gradientTransform='matrix(-20.82447 -21.007 50.53416 -50.09508 34.21 26.01)'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#B4B4B4' />
+				<stop stopColor='#B4B4B4' />
 				<stop
 					offset='.298'
-					stop-color='#B4B4B4'
+					stopColor='#B4B4B4'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 			<linearGradient
@@ -346,12 +346,12 @@ export const CloudyWithSunnyIcon = ({ className }: SVGProps) => (
 				y2='26.943'
 				gradientUnits='userSpaceOnUse'>
 				<stop
-					stop-color='#80868B'
-					stop-opacity='0'
+					stopColor='#80868B'
+					stopOpacity='0'
 				/>
 				<stop
 					offset='1'
-					stop-color='#80868B'
+					stopColor='#80868B'
 				/>
 			</linearGradient>
 			<linearGradient
@@ -361,11 +361,11 @@ export const CloudyWithSunnyIcon = ({ className }: SVGProps) => (
 				y1='2.753'
 				y2='14.233'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#81878C' />
+				<stop stopColor='#81878C' />
 				<stop
 					offset='1'
-					stop-color='#C3C5C6'
-					stop-opacity='0'
+					stopColor='#C3C5C6'
+					stopOpacity='0'
 				/>
 			</linearGradient>
 		</defs>
@@ -382,16 +382,16 @@ export const CloudyIcon = ({ className }: SVGProps) => (
 			id='c'
 			fill='#fff'>
 			<path
-				fill-rule='evenodd'
+				fillRule='evenodd'
 				d='M47 23.5c0 8.358-6.662 15.171-15 15.488V39H11v-.002h-.143C5.413 38.999 1 34.617 1 29.21s4.413-9.79 9.857-9.79c1.89 0 3.654.528 5.154 1.444C17.271 13.559 23.678 8 31.393 8 40.013 8 47 14.94 47 23.5Z'
-				clip-rule='evenodd'
+				clipRule='evenodd'
 			/>
 		</mask>
 		<path
 			fill='url(#a)'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M47 23.5c0 8.358-6.662 15.171-15 15.488V39H11v-.002h-.143C5.413 38.999 1 34.617 1 29.21s4.413-9.79 9.857-9.79c1.89 0 3.654.528 5.154 1.444C17.271 13.559 23.678 8 31.393 8 40.013 8 47 14.94 47 23.5Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='url(#b)'
@@ -412,12 +412,12 @@ export const CloudyIcon = ({ className }: SVGProps) => (
 				y2='37.5'
 				gradientUnits='userSpaceOnUse'>
 				<stop
-					stop-color='#80868B'
-					stop-opacity='0'
+					stopColor='#80868B'
+					stopOpacity='0'
 				/>
 				<stop
 					offset='1'
-					stop-color='#80868B'
+					stopColor='#80868B'
 				/>
 			</linearGradient>
 			<linearGradient
@@ -427,11 +427,11 @@ export const CloudyIcon = ({ className }: SVGProps) => (
 				y1='8'
 				y2='22'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#81878C' />
+				<stop stopColor='#81878C' />
 				<stop
 					offset='1'
-					stop-color='#C3C5C6'
-					stop-opacity='0'
+					stopColor='#C3C5C6'
+					stopOpacity='0'
 				/>
 			</linearGradient>
 			<radialGradient
@@ -441,14 +441,14 @@ export const CloudyIcon = ({ className }: SVGProps) => (
 				r='1'
 				gradientTransform='rotate(-134.75 27.244 9.985) scale(36.0726 86.7758)'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#B4B4B4' />
+				<stop stopColor='#B4B4B4' />
 				<stop
 					offset='.298'
-					stop-color='#B4B4B4'
+					stopColor='#B4B4B4'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 		</defs>
@@ -465,16 +465,16 @@ export const DrizzleIcon = ({ className }: SVGProps) => (
 			id='c'
 			fill='#fff'>
 			<path
-				fill-rule='evenodd'
+				fillRule='evenodd'
 				d='M47 16.5c0 8.358-6.662 15.171-15 15.488V32H11v-.002h-.143C5.413 31.999 1 27.617 1 22.21s4.413-9.79 9.857-9.79c1.89 0 3.654.528 5.154 1.444C17.271 6.559 23.679 1 31.393 1 40.013 1 47 7.94 47 16.5Z'
-				clip-rule='evenodd'
+				clipRule='evenodd'
 			/>
 		</mask>
 		<path
 			fill='url(#a)'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M47 16.5c0 8.358-6.662 15.171-15 15.488V32H11v-.002h-.143C5.413 31.999 1 27.617 1 22.21s4.413-9.79 9.857-9.79c1.89 0 3.654.528 5.154 1.444C17.271 6.559 23.679 1 31.393 1 40.013 1 47 7.94 47 16.5Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='url(#b)'
@@ -499,12 +499,12 @@ export const DrizzleIcon = ({ className }: SVGProps) => (
 				y2='30.5'
 				gradientUnits='userSpaceOnUse'>
 				<stop
-					stop-color='#80868B'
-					stop-opacity='0'
+					stopColor='#80868B'
+					stopOpacity='0'
 				/>
 				<stop
 					offset='1'
-					stop-color='#80868B'
+					stopColor='#80868B'
 				/>
 			</linearGradient>
 			<linearGradient
@@ -514,11 +514,11 @@ export const DrizzleIcon = ({ className }: SVGProps) => (
 				y1='1'
 				y2='15'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#81878C' />
+				<stop stopColor='#81878C' />
 				<stop
 					offset='1'
-					stop-color='#C3C5C6'
-					stop-opacity='0'
+					stopColor='#C3C5C6'
+					stopOpacity='0'
 				/>
 			</linearGradient>
 			<radialGradient
@@ -528,14 +528,14 @@ export const DrizzleIcon = ({ className }: SVGProps) => (
 				r='1'
 				gradientTransform='rotate(-134.75 25.785 6.485) scale(36.0726 86.7758)'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#B4B4B4' />
+				<stop stopColor='#B4B4B4' />
 				<stop
 					offset='.298'
-					stop-color='#B4B4B4'
+					stopColor='#B4B4B4'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 		</defs>
@@ -552,16 +552,16 @@ export const FlurriesIcon = ({ className }: SVGProps) => (
 			id='c'
 			fill='#fff'>
 			<path
-				fill-rule='evenodd'
+				fillRule='evenodd'
 				d='M47 16.5c0 8.358-6.662 15.171-15 15.488V32H11v-.002l-.143.001C5.413 31.999 1 27.616 1 22.209c0-5.406 4.413-9.788 9.857-9.788 1.89 0 3.654.527 5.154 1.443C17.271 6.559 23.679 1 31.393 1 40.013 1 47 7.94 47 16.5Z'
-				clip-rule='evenodd'
+				clipRule='evenodd'
 			/>
 		</mask>
 		<path
 			fill='url(#a)'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M47 16.5c0 8.358-6.662 15.171-15 15.488V32H11v-.002l-.143.001C5.413 31.999 1 27.616 1 22.209c0-5.406 4.413-9.788 9.857-9.788 1.89 0 3.654.527 5.154 1.443C17.271 6.559 23.679 1 31.393 1 40.013 1 47 7.94 47 16.5Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='url(#b)'
@@ -575,9 +575,9 @@ export const FlurriesIcon = ({ className }: SVGProps) => (
 		/>
 		<path
 			fill='#5E5E5E'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M34.379 39.993V44h1.242v-4.007l3.758 2.003.621-.993-3.757-2.004L40 36.996l-.621-.993-3.758 2.003V34H34.38v4.006l-3.758-2.003-.621.993L33.757 39 30 41.003l.621.993 3.758-2.003Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
@@ -592,12 +592,12 @@ export const FlurriesIcon = ({ className }: SVGProps) => (
 				y2='30.5'
 				gradientUnits='userSpaceOnUse'>
 				<stop
-					stop-color='#80868B'
-					stop-opacity='0'
+					stopColor='#80868B'
+					stopOpacity='0'
 				/>
 				<stop
 					offset='1'
-					stop-color='#80868B'
+					stopColor='#80868B'
 				/>
 			</linearGradient>
 			<linearGradient
@@ -607,11 +607,11 @@ export const FlurriesIcon = ({ className }: SVGProps) => (
 				y1='1'
 				y2='15'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#81878C' />
+				<stop stopColor='#81878C' />
 				<stop
 					offset='1'
-					stop-color='#C3C5C6'
-					stop-opacity='0'
+					stopColor='#C3C5C6'
+					stopOpacity='0'
 				/>
 			</linearGradient>
 			<radialGradient
@@ -621,14 +621,14 @@ export const FlurriesIcon = ({ className }: SVGProps) => (
 				r='1'
 				gradientTransform='rotate(-134.75 25.785 6.485) scale(36.0726 86.7758)'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#B4B4B4' />
+				<stop stopColor='#B4B4B4' />
 				<stop
 					offset='.298'
-					stop-color='#B4B4B4'
+					stopColor='#B4B4B4'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 		</defs>
@@ -656,10 +656,10 @@ export const HeavyRainIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='url(#a)'
-			fill-opacity='.95'
-			fill-rule='evenodd'
+			fillOpacity='.95'
+			fillRule='evenodd'
 			d='M47 16.5c0 8.358-6.662 15.171-15 15.488V32H11v-.002h-.143C5.413 31.999 1 27.617 1 22.21s4.413-9.79 9.857-9.79c1.89 0 3.654.528 5.154 1.444C17.271 6.559 23.679 1 31.393 1 40.013 1 47 7.94 47 16.5Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#0B57D0'
@@ -675,11 +675,11 @@ export const HeavyRainIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.298'
-					stop-color='#B4B4B4'
+					stopColor='#B4B4B4'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 		</defs>
@@ -694,16 +694,16 @@ export const HeavySnowIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='url(#a)'
-			fill-opacity='.95'
-			fill-rule='evenodd'
+			fillOpacity='.95'
+			fillRule='evenodd'
 			d='M47 16.5c0 8.358-6.662 15.171-15 15.488V32H11v-.002l-.143.001C5.413 31.999 1 27.616 1 22.209c0-5.406 4.413-9.788 9.857-9.788 1.89 0 3.654.527 5.154 1.443C17.271 6.559 23.679 1 31.393 1 40.013 1 47 7.94 47 16.5Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M7.254 33.193V38h1.491v-4.807l4.51 2.403.745-1.192L9.491 32 14 29.596l-.746-1.192-4.509 2.404V26h-1.49v4.807l-4.51-2.403L2 29.596 6.509 32 2 34.404l.746 1.192 4.508-2.403Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
@@ -711,9 +711,9 @@ export const HeavySnowIcon = ({ className }: SVGProps) => (
 		/>
 		<path
 			fill='#5E5E5E'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M20.379 42.993V47h1.242v-4.007l3.758 2.003.621-.993-3.757-2.004L26 39.996l-.621-.993-3.758 2.003V37H20.38v4.006l-3.758-2.003-.621.993L19.757 42 16 44.003l.621.993 3.758-2.003Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
@@ -721,9 +721,9 @@ export const HeavySnowIcon = ({ className }: SVGProps) => (
 		/>
 		<path
 			fill='#5E5E5E'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M23.254 29.193V34h1.491v-4.807l4.51 2.403.745-1.192L25.491 28 30 25.596l-.746-1.192-4.509 2.404V22h-1.49v4.807l-4.51-2.403L18 25.596 22.509 28 18 30.404l.746 1.192 4.508-2.403Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
@@ -731,9 +731,9 @@ export const HeavySnowIcon = ({ className }: SVGProps) => (
 		/>
 		<path
 			fill='#5E5E5E'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M35.379 39.993V44h1.242v-4.007l3.758 2.003.621-.993-3.757-2.004L41 36.996l-.621-.993-3.758 2.003V34H35.38v4.006l-3.758-2.003-.621.993L34.757 39 31 41.003l.621.993 3.758-2.003Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
@@ -741,9 +741,9 @@ export const HeavySnowIcon = ({ className }: SVGProps) => (
 		/>
 		<path
 			fill='#5E5E5E'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M39.254 25.193V30h1.492v-4.807l4.508 2.403.746-1.192L41.491 24 46 21.596l-.746-1.192-4.508 2.404V18h-1.492v4.807l-4.508-2.403L34 21.596 38.509 24 34 26.404l.746 1.192 4.508-2.403Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
@@ -759,11 +759,11 @@ export const HeavySnowIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.298'
-					stop-color='#B4B4B4'
+					stopColor='#B4B4B4'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 		</defs>
@@ -778,10 +778,10 @@ export const IcyIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='url(#a)'
-			fill-opacity='.95'
-			fill-rule='evenodd'
+			fillOpacity='.95'
+			fillRule='evenodd'
 			d='M47 16.5c0 8.358-6.662 15.171-15 15.488V32H11v-.002h-.143C5.413 31.999 1 27.617 1 22.21c0-5.406 4.413-9.789 9.857-9.789 1.89 0 3.654.528 5.154 1.444C17.271 6.559 23.678 1 31.393 1 40.013 1 47 7.94 47 16.5Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
@@ -797,11 +797,11 @@ export const IcyIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.298'
-					stop-color='#B4B4B4'
+					stopColor='#B4B4B4'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 		</defs>
@@ -822,10 +822,10 @@ export const IsolatedScatteredThunderstormsDayIcon = ({
 		/>
 		<path
 			fill='url(#b)'
-			fill-opacity='.92'
-			fill-rule='evenodd'
+			fillOpacity='.92'
+			fillRule='evenodd'
 			d='m21.13 31 5.752-11.4c.588-1.425 1.317-2.35 2.876-2.35h17.178c.038-.413.064-.825.064-1.25 0-8.287-6.991-15-15.606-15-7.72 0-14.123 5.375-15.389 12.45a10.065 10.065 0 0 0-5.15-1.4C5.41 12.05 1 16.288 1 21.525c0 5.025 4.064 9.125 9.203 9.45V31H21.13Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#0B57D0'
@@ -833,9 +833,9 @@ export const IsolatedScatteredThunderstormsDayIcon = ({
 		/>
 		<path
 			fill='url(#c)'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M30.667 21 24 34.754h6L29.253 47 44 30.958l-5.333-.026L44 21H30.667Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<defs>
 			<radialGradient
@@ -845,14 +845,14 @@ export const IsolatedScatteredThunderstormsDayIcon = ({
 				r='1'
 				gradientTransform='rotate(63.555 .448 8.427) scale(22.7304)'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#FFBB29' />
+				<stop stopColor='#FFBB29' />
 				<stop
 					offset='.27'
-					stop-color='#FCB224'
+					stopColor='#FCB224'
 				/>
 				<stop
 					offset='.524'
-					stop-color='#E47100'
+					stopColor='#E47100'
 				/>
 			</radialGradient>
 			<radialGradient
@@ -864,11 +864,11 @@ export const IsolatedScatteredThunderstormsDayIcon = ({
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.298'
-					stop-color='#898989'
+					stopColor='#898989'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 			<linearGradient
@@ -878,10 +878,10 @@ export const IsolatedScatteredThunderstormsDayIcon = ({
 				y1='22'
 				y2='44.459'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#FCB224' />
+				<stop stopColor='#FCB224' />
 				<stop
 					offset='.557'
-					stop-color='#E47100'
+					stopColor='#E47100'
 				/>
 			</linearGradient>
 		</defs>
@@ -898,16 +898,16 @@ export const IsolatedScatteredThunderstormsNightIcon = ({
 		fill='none'>
 		<path
 			fill='url(#a)'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M15.636 1c-1.687 2.053-2.71 4.653-2.71 7.493 0 6.627 5.527 12 12.355 12h.386C23.408 23.24 19.927 25 16.022 25 9.193 25 3.667 19.627 3.667 13c0-6.507 5.327-11.8 11.97-12Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='url(#b)'
-			fill-opacity='.92'
-			fill-rule='evenodd'
+			fillOpacity='.92'
+			fillRule='evenodd'
 			d='m21.13 31 5.752-11.4c.588-1.425 1.317-2.35 2.876-2.35h17.178c.038-.413.064-.825.064-1.25 0-8.287-6.991-15-15.606-15-7.72 0-14.123 5.375-15.389 12.45a10.065 10.065 0 0 0-5.15-1.4C5.41 12.05 1 16.288 1 21.525c0 5.025 4.064 9.125 9.203 9.45V31H21.13Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#0B57D0'
@@ -915,9 +915,9 @@ export const IsolatedScatteredThunderstormsNightIcon = ({
 		/>
 		<path
 			fill='url(#c)'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M30.667 21 24 34.754h6L29.253 47 44 30.958l-5.333-.026L44 21H30.667Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<defs>
 			<linearGradient
@@ -927,10 +927,10 @@ export const IsolatedScatteredThunderstormsNightIcon = ({
 				y1='1'
 				y2='27.052'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#A8C7FA' />
+				<stop stopColor='#A8C7FA' />
 				<stop
 					offset='.461'
-					stop-color='#4C8DF6'
+					stopColor='#4C8DF6'
 				/>
 			</linearGradient>
 			<linearGradient
@@ -940,10 +940,10 @@ export const IsolatedScatteredThunderstormsNightIcon = ({
 				y1='22'
 				y2='44.459'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#FCB224' />
+				<stop stopColor='#FCB224' />
 				<stop
 					offset='.557'
-					stop-color='#E47100'
+					stopColor='#E47100'
 				/>
 			</linearGradient>
 			<radialGradient
@@ -955,11 +955,11 @@ export const IsolatedScatteredThunderstormsNightIcon = ({
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.298'
-					stop-color='#898989'
+					stopColor='#898989'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 		</defs>
@@ -974,10 +974,10 @@ export const IsolatedThunderStorms = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='url(#a)'
-			fill-opacity='.92'
-			fill-rule='evenodd'
+			fillOpacity='.92'
+			fillRule='evenodd'
 			d='m21.13 31 5.752-11.78c.588-1.473 1.317-2.428 2.876-2.428h17.178c.038-.427.064-.853.064-1.292C47 6.936 40.009 0 31.394 0c-7.72 0-14.123 5.554-15.389 12.865a9.82 9.82 0 0 0-5.15-1.447C5.41 11.418 1 15.798 1 21.21c0 5.193 4.064 9.43 9.203 9.765V31H21.13Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#0B57D0'
@@ -985,9 +985,9 @@ export const IsolatedThunderStorms = ({ className }: SVGProps) => (
 		/>
 		<path
 			fill='url(#b)'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M30.667 21 24 34.754h6L29.253 47 44 30.958l-5.333-.026L44 21H30.667Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<defs>
 			<radialGradient
@@ -999,11 +999,11 @@ export const IsolatedThunderStorms = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.298'
-					stop-color='#898989'
+					stopColor='#898989'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 			<linearGradient
@@ -1013,10 +1013,10 @@ export const IsolatedThunderStorms = ({ className }: SVGProps) => (
 				y1='22'
 				y2='44.459'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#FCB224' />
+				<stop stopColor='#FCB224' />
 				<stop
 					offset='.557'
-					stop-color='#E47100'
+					stopColor='#E47100'
 				/>
 			</linearGradient>
 		</defs>
@@ -1031,10 +1031,10 @@ export const MixedRainHailSleetIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='url(#a)'
-			fill-opacity='.95'
-			fill-rule='evenodd'
+			fillOpacity='.95'
+			fillRule='evenodd'
 			d='M47 16.5c0 8.358-6.662 15.172-15 15.488V32H11v-.002h-.143C5.413 31.999 1 27.617 1 22.21s4.413-9.79 9.857-9.79c1.89 0 3.654.528 5.154 1.444C17.271 6.559 23.68 1 31.393 1 40.013 1 47 7.94 47 16.5Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#474747'
@@ -1058,11 +1058,11 @@ export const MixedRainHailSleetIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.298'
-					stop-color='#B4B4B4'
+					stopColor='#B4B4B4'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 		</defs>
@@ -1077,16 +1077,16 @@ export const MixedRainSnowIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='url(#a)'
-			fill-opacity='.95'
-			fill-rule='evenodd'
+			fillOpacity='.95'
+			fillRule='evenodd'
 			d='M47 16.5c0 8.358-6.662 15.172-15 15.488V32H11v-.002l-.143.001C5.413 31.999 1 27.616 1 22.209c0-5.406 4.413-9.788 9.857-9.788 1.89 0 3.655.527 5.154 1.443C17.271 6.559 23.68 1 31.393 1 40.013 1 47 7.94 47 16.5Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M19.13 41.392V47h1.74v-5.609l5.26 2.805.87-1.392L21.74 40 27 37.196l-.87-1.392-5.26 2.805V33h-1.74v5.609l-5.26-2.805-.87 1.392L18.26 40 13 42.804l.87 1.392 5.26-2.804Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
@@ -1110,11 +1110,11 @@ export const MixedRainSnowIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.298'
-					stop-color='#B4B4B4'
+					stopColor='#B4B4B4'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 		</defs>
@@ -1133,10 +1133,10 @@ export const MostlyClearDayIcon = ({ className }: SVGProps) => (
 		/>
 		<path
 			fill='url(#b)'
-			fill-opacity='.95'
-			fill-rule='evenodd'
+			fillOpacity='.95'
+			fillRule='evenodd'
 			d='M46 36c0 5.322-4.232 9.673-9.57 9.982V46h-.5a9.775 9.775 0 0 1-.217 0h-13.21a6.253 6.253 0 0 1-.15 0h-.355v-.013C18.648 45.768 16 43.03 16 39.684c0-3.488 2.878-6.316 6.428-6.316 1.232 0 2.384.341 3.362.931.822-4.712 5-8.299 10.032-8.299C41.442 26 46 30.477 46 36Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<defs>
 			<radialGradient
@@ -1148,15 +1148,15 @@ export const MostlyClearDayIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.016'
-					stop-color='#FFBB29'
+					stopColor='#FFBB29'
 				/>
 				<stop
 					offset='.393'
-					stop-color='#FCB224'
+					stopColor='#FCB224'
 				/>
 				<stop
 					offset='.967'
-					stop-color='#E47100'
+					stopColor='#E47100'
 				/>
 			</radialGradient>
 			<radialGradient
@@ -1166,10 +1166,10 @@ export const MostlyClearDayIcon = ({ className }: SVGProps) => (
 				r='1'
 				gradientTransform='matrix(-19.50006 -21 50.43304 -46.83084 46 53.5)'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#B9B4AE' />
+				<stop stopColor='#B9B4AE' />
 				<stop
 					offset='1'
-					stop-color='#fff'
+					stopColor='#fff'
 				/>
 			</radialGradient>
 		</defs>
@@ -1184,16 +1184,16 @@ export const MostlyClearNightIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='url(#a)'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M23.85 1c-3.232 3.937-5.164 8.932-5.164 14.367 0 12.706 10.558 23.006 23.582 23.006.245 0 .489-.004.732-.01C38.678 43.627 32.034 47 24.582 47 11.558 47 1 36.7 1 23.995 1 11.528 11.164 1.377 23.85 1Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='url(#b)'
-			fill-opacity='.95'
-			fill-rule='evenodd'
+			fillOpacity='.95'
+			fillRule='evenodd'
 			d='M47 35c0 6.225-4.824 11.343-11 11.941V47H19v-.006a9.04 9.04 0 0 1-.286.005c-4.26 0-7.714-3.393-7.714-7.579s3.454-7.579 7.714-7.579a7.78 7.78 0 0 1 4.034 1.118c.986-5.655 6-9.959 12.038-9.959C41.532 23 47 28.373 47 35Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<defs>
 			<radialGradient
@@ -1203,14 +1203,14 @@ export const MostlyClearNightIcon = ({ className }: SVGProps) => (
 				r='1'
 				gradientTransform='matrix(-15.90012 -16.19986 38.90525 -38.1854 39.5 47)'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#A0A0A0' />
+				<stop stopColor='#A0A0A0' />
 				<stop
 					offset='.38'
-					stop-color='#CCC'
+					stopColor='#CCC'
 				/>
 				<stop
 					offset='1'
-					stop-color='#fff'
+					stopColor='#fff'
 				/>
 			</radialGradient>
 			<linearGradient
@@ -1220,10 +1220,10 @@ export const MostlyClearNightIcon = ({ className }: SVGProps) => (
 				y1='1'
 				y2='50.749'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#A8C7FA' />
+				<stop stopColor='#A8C7FA' />
 				<stop
 					offset='.413'
-					stop-color='#4C8DF6'
+					stopColor='#4C8DF6'
 				/>
 			</linearGradient>
 		</defs>
@@ -1236,17 +1236,17 @@ export const MostlyCloudyDayIcon = ({ className }: SVGProps) => (
 		width='48'
 		height='48'
 		fill='none'>
-		<g clip-path='url(#a)'>
+		<g clipPath='url(#a)'>
 			<path
 				fill='url(#b)'
 				d='M26.97 5.324a6.273 6.273 0 0 1 5.986 5.985 6.296 6.296 0 0 0 1.532 3.835c2.082 2.4 2.084 5.986-.012 8.373l-.243.277a6.804 6.804 0 0 0-1.658 3.866 6.923 6.923 0 0 1-6.248 6.248 6.803 6.803 0 0 0-3.866 1.658l-.277.243c-2.388 2.097-5.973 2.094-8.373.013a6.295 6.295 0 0 0-3.835-1.533 6.273 6.273 0 0 1-5.986-5.986 6.295 6.295 0 0 0-1.532-3.834c-2.082-2.4-2.084-5.986.013-8.373l.243-.277a6.804 6.804 0 0 0 1.657-3.867 6.923 6.923 0 0 1 6.248-6.247 6.804 6.804 0 0 0 3.867-1.658l.276-.243c2.388-2.097 5.973-2.094 8.373-.013a6.295 6.295 0 0 0 3.835 1.533Z'
 			/>
 			<path
 				fill='url(#c)'
-				fill-opacity='.95'
-				fill-rule='evenodd'
+				fillOpacity='.95'
+				fillRule='evenodd'
 				d='M47 27.5c0 8.358-6.662 15.17-15 15.487V43H11v-.003h-.143C5.413 42.998 1 38.616 1 33.21c0-5.407 4.413-9.79 9.857-9.79 1.89 0 3.654.529 5.154 1.444C17.271 17.559 23.68 12 31.393 12 40.013 12 47 18.94 47 27.5Z'
-				clip-rule='evenodd'
+				clipRule='evenodd'
 			/>
 		</g>
 		<defs>
@@ -1259,15 +1259,15 @@ export const MostlyCloudyDayIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.016'
-					stop-color='#FFBB29'
+					stopColor='#FFBB29'
 				/>
 				<stop
 					offset='.393'
-					stop-color='#FCB224'
+					stopColor='#FCB224'
 				/>
 				<stop
 					offset='.967'
-					stop-color='#E47100'
+					stopColor='#E47100'
 				/>
 			</radialGradient>
 			<linearGradient
@@ -1279,15 +1279,15 @@ export const MostlyCloudyDayIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.078'
-					stop-color='#A0A0A0'
+					stopColor='#A0A0A0'
 				/>
 				<stop
 					offset='.349'
-					stop-color='#CCC'
+					stopColor='#CCC'
 				/>
 				<stop
 					offset='1'
-					stop-color='#fff'
+					stopColor='#fff'
 				/>
 			</linearGradient>
 			<clipPath id='a'>
@@ -1308,16 +1308,16 @@ export const MostlyCloudyNightIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='url(#a)'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M16.688 2c-2.076 2.51-3.319 5.696-3.319 9.162 0 8.102 6.787 14.67 15.16 14.67a16 16 0 0 0 .47-.007c-2.778 3.358-7.05 5.508-11.84 5.508C8.787 31.333 2 24.765 2 16.663 2 8.713 8.534 2.241 16.688 2Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='url(#b)'
-			fill-opacity='.95'
-			fill-rule='evenodd'
+			fillOpacity='.95'
+			fillRule='evenodd'
 			d='M47 31c0 7.982-6.489 14.509-14.674 14.972V46h-22.13v-.02C5.061 45.652 1 41.544 1 36.526c0-5.232 4.413-9.473 9.857-9.473 1.89 0 3.654.51 5.154 1.396C17.27 21.38 23.678 16 31.393 16 40.013 16 47 22.715 47 31Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<defs>
 			<radialGradient
@@ -1327,14 +1327,14 @@ export const MostlyCloudyNightIcon = ({ className }: SVGProps) => (
 				r='1'
 				gradientTransform='rotate(-134.297 25.502 14.13) scale(23.0534 55.4078)'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#A0A0A0' />
+				<stop stopColor='#A0A0A0' />
 				<stop
 					offset='.38'
-					stop-color='#CCC'
+					stopColor='#CCC'
 				/>
 				<stop
 					offset='1'
-					stop-color='#fff'
+					stopColor='#fff'
 				/>
 			</radialGradient>
 			<linearGradient
@@ -1344,10 +1344,10 @@ export const MostlyCloudyNightIcon = ({ className }: SVGProps) => (
 				y1='2'
 				y2='33.963'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#A8C7FA' />
+				<stop stopColor='#A8C7FA' />
 				<stop
 					offset='.461'
-					stop-color='#4C8DF6'
+					stopColor='#4C8DF6'
 				/>
 			</linearGradient>
 		</defs>
@@ -1360,17 +1360,17 @@ export const PartlyCloudyDayIcon = ({ className }: SVGProps) => (
 		width='48'
 		height='48'
 		fill='none'>
-		<g clip-path='url(#a)'>
+		<g clipPath='url(#a)'>
 			<path
 				fill='url(#b)'
 				d='M33.994 7.163a8.013 8.013 0 0 1 7.45 7.451 8.012 8.012 0 0 0 1.958 4.725 8.013 8.013 0 0 1 0 10.537 8.012 8.012 0 0 0-1.957 4.726 8.013 8.013 0 0 1-7.451 7.45 8.012 8.012 0 0 0-4.726 1.958 8.012 8.012 0 0 1-10.537 0 8.012 8.012 0 0 0-4.725-1.957 8.013 8.013 0 0 1-7.45-7.451 8.012 8.012 0 0 0-1.958-4.726 8.013 8.013 0 0 1 0-10.537 8.013 8.013 0 0 0 1.957-4.725 8.013 8.013 0 0 1 7.451-7.45 8.013 8.013 0 0 0 4.726-1.958 8.012 8.012 0 0 1 10.537 0 8.013 8.013 0 0 0 4.725 1.957Z'
 			/>
 			<path
 				fill='url(#c)'
-				fill-opacity='.95'
-				fill-rule='evenodd'
+				fillOpacity='.95'
+				fillRule='evenodd'
 				d='M47 32c0 7.317-5.715 13.324-13 13.946V46H14v-.002c-4.97 0-9-3.959-9-8.842 0-4.883 4.03-8.841 9-8.841 1.725 0 3.337.476 4.706 1.303C19.856 23.021 25.706 18 32.75 18 40.62 18 47 24.268 47 32Z'
-				clip-rule='evenodd'
+				clipRule='evenodd'
 			/>
 		</g>
 		<defs>
@@ -1383,15 +1383,15 @@ export const PartlyCloudyDayIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.016'
-					stop-color='#FFBB29'
+					stopColor='#FFBB29'
 				/>
 				<stop
 					offset='.359'
-					stop-color='#FCB224'
+					stopColor='#FCB224'
 				/>
 				<stop
 					offset='.967'
-					stop-color='#E47100'
+					stopColor='#E47100'
 				/>
 			</radialGradient>
 			<linearGradient
@@ -1403,15 +1403,15 @@ export const PartlyCloudyDayIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.078'
-					stop-color='#A0A0A0'
+					stopColor='#A0A0A0'
 				/>
 				<stop
 					offset='.349'
-					stop-color='#CCC'
+					stopColor='#CCC'
 				/>
 				<stop
 					offset='1'
-					stop-color='#fff'
+					stopColor='#fff'
 				/>
 			</linearGradient>
 			<clipPath id='a'>
@@ -1432,16 +1432,16 @@ export const PartlyCloudyNightIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='url(#a)'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M23.85 1c-3.232 3.937-5.164 8.932-5.164 14.367 0 12.706 10.558 23.006 23.582 23.006.245 0 .489-.004.732-.01C38.678 43.627 32.034 47 24.582 47 11.558 47 1 36.7 1 23.995 1 11.528 11.164 1.377 23.85 1Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='url(#b)'
-			fill-opacity='.95'
-			fill-rule='evenodd'
+			fillOpacity='.95'
+			fillRule='evenodd'
 			d='M47 31.5c0 8.358-6.662 15.172-15 15.488V47H11v-.001l-.143.001C5.413 47 1 42.617 1 37.21c0-5.406 4.413-9.789 9.857-9.789a9.86 9.86 0 0 1 5.154 1.443C17.27 21.56 23.678 16 31.393 16 40.013 16 47 22.94 47 31.5Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<defs>
 			<radialGradient
@@ -1451,14 +1451,14 @@ export const PartlyCloudyNightIcon = ({ className }: SVGProps) => (
 				r='1'
 				gradientTransform='matrix(-16.09985 -17.05013 40.92425 -38.64335 33.2 43.125)'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#A0A0A0' />
+				<stop stopColor='#A0A0A0' />
 				<stop
 					offset='.38'
-					stop-color='#CCC'
+					stopColor='#CCC'
 				/>
 				<stop
 					offset='1'
-					stop-color='#fff'
+					stopColor='#fff'
 				/>
 			</radialGradient>
 			<linearGradient
@@ -1468,10 +1468,10 @@ export const PartlyCloudyNightIcon = ({ className }: SVGProps) => (
 				y1='1'
 				y2='50.749'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#A8C7FA' />
+				<stop stopColor='#A8C7FA' />
 				<stop
 					offset='.359'
-					stop-color='#4C8DF6'
+					stopColor='#4C8DF6'
 				/>
 			</linearGradient>
 		</defs>
@@ -1490,10 +1490,10 @@ export const ScatteredShowerDayIcon = ({ className }: SVGProps) => (
 		/>
 		<path
 			fill='url(#b)'
-			fill-opacity='.95'
-			fill-rule='evenodd'
+			fillOpacity='.95'
+			fillRule='evenodd'
 			d='M47 16.5c0 8.358-6.662 15.171-15 15.488V32H11v-.002h-.143C5.413 31.999 1 27.617 1 22.21s4.413-9.79 9.857-9.79c1.89 0 3.654.528 5.154 1.444C17.271 6.559 23.679 1 31.393 1 40.013 1 47 7.94 47 16.5Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#0B57D0'
@@ -1507,14 +1507,14 @@ export const ScatteredShowerDayIcon = ({ className }: SVGProps) => (
 				r='1'
 				gradientTransform='rotate(63.555 -.137 8.694) scale(23.0007)'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#FFBB29' />
+				<stop stopColor='#FFBB29' />
 				<stop
 					offset='.27'
-					stop-color='#FCB224'
+					stopColor='#FCB224'
 				/>
 				<stop
 					offset='.524'
-					stop-color='#E47100'
+					stopColor='#E47100'
 				/>
 			</radialGradient>
 			<radialGradient
@@ -1526,11 +1526,11 @@ export const ScatteredShowerDayIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.298'
-					stop-color='#B4B4B4'
+					stopColor='#B4B4B4'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 		</defs>
@@ -1545,16 +1545,16 @@ export const ScatteredShowerNightIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='url(#a)'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M12.968 1a11.744 11.744 0 0 0-2.705 7.496c0 6.63 5.53 12.003 12.352 12.003.128 0 .256-.002.383-.006C20.735 23.241 17.254 25 13.351 25 6.53 25 1 19.626 1 12.997 1 6.493 6.324 1.197 12.968 1Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='url(#b)'
-			fill-opacity='.95'
-			fill-rule='evenodd'
+			fillOpacity='.95'
+			fillRule='evenodd'
 			d='M47 16.5c0 8.358-6.662 15.171-15 15.488V32H11v-.002h-.143C5.413 31.999 1 27.617 1 22.21s4.413-9.79 9.857-9.79c1.89 0 3.654.528 5.154 1.444C17.271 6.559 23.679 1 31.393 1 40.013 1 47 7.94 47 16.5Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#0B57D0'
@@ -1570,11 +1570,11 @@ export const ScatteredShowerNightIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.298'
-					stop-color='#B4B4B4'
+					stopColor='#B4B4B4'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 			<linearGradient
@@ -1584,10 +1584,10 @@ export const ScatteredShowerNightIcon = ({ className }: SVGProps) => (
 				y1='1'
 				y2='27.05'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#A8C7FA' />
+				<stop stopColor='#A8C7FA' />
 				<stop
 					offset='.461'
-					stop-color='#4C8DF6'
+					stopColor='#4C8DF6'
 				/>
 			</linearGradient>
 		</defs>
@@ -1606,16 +1606,16 @@ export const ScatteredSnowShowersDayIcon = ({ className }: SVGProps) => (
 		/>
 		<path
 			fill='url(#b)'
-			fill-opacity='.95'
-			fill-rule='evenodd'
+			fillOpacity='.95'
+			fillRule='evenodd'
 			d='M47 16.499c0 8.358-6.662 15.17-15 15.487V32H11v-.004l-.143.001C5.413 31.997 1 27.615 1 22.21c0-5.406 4.413-9.789 9.857-9.789 1.89 0 3.654.528 5.154 1.443C17.27 6.56 23.678 1 31.393 1 40.013 1 47 7.939 47 16.499Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M23.254 29.193V34h1.491v-4.807l4.51 2.403.745-1.192L25.491 28 30 25.596l-.746-1.192-4.509 2.404V22h-1.49v4.807l-4.51-2.403L18 25.596 22.509 28 18 30.404l.746 1.192 4.508-2.403Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
@@ -1623,9 +1623,9 @@ export const ScatteredSnowShowersDayIcon = ({ className }: SVGProps) => (
 		/>
 		<path
 			fill='#5E5E5E'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M34.379 39.993V44h1.242v-4.007l3.758 2.003.621-.993-3.757-2.004L40 36.996l-.621-.993-3.758 2.003V34H34.38v4.006l-3.758-2.003-.621.993L33.757 39 30 41.003l.621.993 3.758-2.003Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
@@ -1633,9 +1633,9 @@ export const ScatteredSnowShowersDayIcon = ({ className }: SVGProps) => (
 		/>
 		<path
 			fill='#5E5E5E'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M39.254 25.193V30h1.492v-4.807l4.508 2.403.746-1.192L41.491 24 46 21.596l-.746-1.192-4.508 2.404V18h-1.492v4.807l-4.508-2.403L34 21.596 38.509 24 34 26.404l.746 1.192 4.508-2.403Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
@@ -1649,14 +1649,14 @@ export const ScatteredSnowShowersDayIcon = ({ className }: SVGProps) => (
 				r='1'
 				gradientTransform='rotate(63.555 .755 7.12) scale(22.7304)'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#FFBB29' />
+				<stop stopColor='#FFBB29' />
 				<stop
 					offset='.27'
-					stop-color='#FCB224'
+					stopColor='#FCB224'
 				/>
 				<stop
 					offset='.524'
-					stop-color='#E47100'
+					stopColor='#E47100'
 				/>
 			</radialGradient>
 			<radialGradient
@@ -1668,11 +1668,11 @@ export const ScatteredSnowShowersDayIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.298'
-					stop-color='#B4B4B4'
+					stopColor='#B4B4B4'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 		</defs>
@@ -1687,22 +1687,22 @@ export const ScatteredSnowShowersNightIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='url(#a)'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M13.969 1a11.743 11.743 0 0 0-2.705 7.496c0 6.63 5.53 12.003 12.352 12.003.129 0 .257-.002.384-.006C21.736 23.241 18.256 25 14.352 25 7.53 25 2 19.626 2 12.997 2 6.493 7.324 1.197 13.969 1Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='url(#b)'
-			fill-opacity='.95'
-			fill-rule='evenodd'
+			fillOpacity='.95'
+			fillRule='evenodd'
 			d='M47 16.499c0 8.358-6.662 15.17-15 15.488V32H11v-.003h-.143C5.413 31.998 1 27.616 1 22.21c0-5.406 4.413-9.789 9.857-9.789 1.89 0 3.655.528 5.154 1.444C17.271 6.559 23.678 1 31.393 1 40.013 1 47 7.94 47 16.499Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M23.254 29.193V34h1.491v-4.807l4.51 2.403.745-1.192L25.491 28 30 25.596l-.746-1.192-4.509 2.404V22h-1.49v4.807l-4.51-2.403L18 25.596 22.509 28 18 30.404l.746 1.192 4.508-2.403Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
@@ -1710,9 +1710,9 @@ export const ScatteredSnowShowersNightIcon = ({ className }: SVGProps) => (
 		/>
 		<path
 			fill='#5E5E5E'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M34.379 39.993V44h1.242v-4.007l3.758 2.003.621-.993-3.757-2.004L40 36.996l-.621-.993-3.758 2.003V34H34.38v4.006l-3.758-2.003-.621.993L33.757 39 30 41.003l.621.993 3.758-2.003Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
@@ -1720,9 +1720,9 @@ export const ScatteredSnowShowersNightIcon = ({ className }: SVGProps) => (
 		/>
 		<path
 			fill='#5E5E5E'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M39.254 25.193V30h1.492v-4.807l4.508 2.403.746-1.192L41.491 24 46 21.596l-.746-1.192-4.508 2.404V18h-1.492v4.807l-4.508-2.403L34 21.596 38.509 24 34 26.404l.746 1.192 4.508-2.403Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
@@ -1738,11 +1738,11 @@ export const ScatteredSnowShowersNightIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.298'
-					stop-color='#B4B4B4'
+					stopColor='#B4B4B4'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 			<linearGradient
@@ -1752,10 +1752,10 @@ export const ScatteredSnowShowersNightIcon = ({ className }: SVGProps) => (
 				y1='1'
 				y2='27.052'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#A8C7FA' />
+				<stop stopColor='#A8C7FA' />
 				<stop
 					offset='.461'
-					stop-color='#4C8DF6'
+					stopColor='#4C8DF6'
 				/>
 			</linearGradient>
 		</defs>
@@ -1770,10 +1770,10 @@ export const ShowersRainIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='url(#a)'
-			fill-opacity='.95'
-			fill-rule='evenodd'
+			fillOpacity='.95'
+			fillRule='evenodd'
 			d='M47 16.5c0 8.358-6.662 15.171-15 15.488V32H11v-.002h-.143C5.413 31.999 1 27.617 1 22.21s4.413-9.79 9.857-9.79c1.89 0 3.654.528 5.154 1.444C17.271 6.559 23.679 1 31.393 1 40.013 1 47 7.94 47 16.5Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#0B57D0'
@@ -1789,11 +1789,11 @@ export const ShowersRainIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.298'
-					stop-color='#B4B4B4'
+					stopColor='#B4B4B4'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 		</defs>
@@ -1808,16 +1808,16 @@ export const ShowersSnowIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='url(#a)'
-			fill-opacity='.95'
-			fill-rule='evenodd'
+			fillOpacity='.95'
+			fillRule='evenodd'
 			d='M47 16.5c0 8.358-6.662 15.171-15 15.488V32H11v-.002l-.143.001C5.413 31.999 1 27.616 1 22.209c0-5.406 4.413-9.788 9.857-9.788 1.89 0 3.654.527 5.154 1.443C17.271 6.559 23.679 1 31.393 1 40.013 1 47 7.94 47 16.5Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M23.254 37.193V42h1.491v-4.807l4.51 2.403.745-1.192L25.491 36 30 33.596l-.746-1.192-4.509 2.404V30h-1.49v4.807l-4.51-2.403L18 33.596 22.509 36 18 38.404l.746 1.192 4.508-2.403Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
@@ -1825,9 +1825,9 @@ export const ShowersSnowIcon = ({ className }: SVGProps) => (
 		/>
 		<path
 			fill='#5E5E5E'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M36.379 42.993V47h1.242v-4.007l3.758 2.003.621-.993-3.757-2.004L42 39.996l-.621-.993-3.758 2.003V37H36.38v4.006l-3.758-2.003-.621.993L35.757 42 32 44.003l.621.993 3.758-2.003Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
@@ -1835,9 +1835,9 @@ export const ShowersSnowIcon = ({ className }: SVGProps) => (
 		/>
 		<path
 			fill='#5E5E5E'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M39.254 29.193V34h1.492v-4.807l4.508 2.403.746-1.192L41.491 28 46 25.596l-.746-1.192-4.508 2.404V22h-1.492v4.807l-4.508-2.403L34 25.596 38.509 28 34 30.404l.746 1.192 4.508-2.403Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#5E5E5E'
@@ -1853,11 +1853,11 @@ export const ShowersSnowIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.298'
-					stop-color='#B4B4B4'
+					stopColor='#B4B4B4'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 		</defs>
@@ -1872,10 +1872,10 @@ export const SleetHailIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='url(#a)'
-			fill-opacity='.95'
-			fill-rule='evenodd'
+			fillOpacity='.95'
+			fillRule='evenodd'
 			d='M47 16.5c0 8.358-6.662 15.172-15 15.488V32H11v-.002h-.143C5.413 31.999 1 27.617 1 22.21s4.413-9.79 9.857-9.79c1.89 0 3.654.528 5.154 1.444C17.271 6.559 23.68 1 31.393 1 40.013 1 47 7.94 47 16.5Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#474747'
@@ -1895,11 +1895,11 @@ export const SleetHailIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.298'
-					stop-color='#B4B4B4'
+					stopColor='#B4B4B4'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 		</defs>
@@ -1914,28 +1914,28 @@ export const StrongThunderStormsIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='url(#a)'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M30.667 21 24 34.757h6L29.257 47 44 30.962l-5.335-.02L44 21H30.667Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='url(#b)'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M18.667 37 16 42.291h2.4L18.103 47 24 40.832l-2.134-.008L24 37h-5.333Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='url(#c)'
-			fill-opacity='.92'
-			fill-rule='evenodd'
+			fillOpacity='.92'
+			fillRule='evenodd'
 			d='M27.304 20.22 21.604 32H18.77a.835.835 0 0 1-.297-1.105l1.044-1.952c.712-1.332-.253-2.943-1.764-2.943h-3.586c-.179 0-.354.024-.52.069a1.985 1.985 0 0 0-.523-.069h-3.039a2 2 0 0 0-1.806 1.14l-1.82 3.83C3.222 29.366 1 26.049 1 22.21c0-5.413 4.41-9.792 9.854-9.792a9.82 9.82 0 0 1 5.151 1.447C17.271 6.555 23.675 1 31.394 1 40.009 1 47 7.936 47 16.5c0 .44-.026.865-.064 1.292H30.857a3.83 3.83 0 0 0-3.553 2.428Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='url(#d)'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='m10 28-4 7.937h3.6L9.154 43 18 33.748l-3.201-.013L18 28h-8Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<defs>
 			<linearGradient
@@ -1945,10 +1945,10 @@ export const StrongThunderStormsIcon = ({ className }: SVGProps) => (
 				y1='22'
 				y2='44.459'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#FCB224' />
+				<stop stopColor='#FCB224' />
 				<stop
 					offset='.557'
-					stop-color='#E47100'
+					stopColor='#E47100'
 				/>
 			</linearGradient>
 			<linearGradient
@@ -1958,10 +1958,10 @@ export const StrongThunderStormsIcon = ({ className }: SVGProps) => (
 				y1='37.385'
 				y2='46.159'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#FCB224' />
+				<stop stopColor='#FCB224' />
 				<stop
 					offset='.557'
-					stop-color='#E47100'
+					stopColor='#E47100'
 				/>
 			</linearGradient>
 			<linearGradient
@@ -1971,10 +1971,10 @@ export const StrongThunderStormsIcon = ({ className }: SVGProps) => (
 				y1='28.577'
 				y2='41.739'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#FCB224' />
+				<stop stopColor='#FCB224' />
 				<stop
 					offset='.557'
-					stop-color='#E47100'
+					stopColor='#E47100'
 				/>
 			</linearGradient>
 			<radialGradient
@@ -1986,11 +1986,11 @@ export const StrongThunderStormsIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.298'
-					stop-color='#898989'
+					stopColor='#898989'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 		</defs>
@@ -2021,9 +2021,9 @@ export const SunnyAndCloudyIcon = ({ className }: SVGProps) => (
 		/>
 		<path
 			fill='#ABABAB'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='m39.077 11.445-27.768 28-1.065-1.056 27.768-28 1.065 1.056Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<defs>
 			<radialGradient
@@ -2033,14 +2033,14 @@ export const SunnyAndCloudyIcon = ({ className }: SVGProps) => (
 				r='1'
 				gradientTransform='matrix(-14.91225 -15.151 36.4439 -35.86963 42.559 41.357)'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#B4B4B4' />
+				<stop stopColor='#B4B4B4' />
 				<stop
 					offset='.298'
-					stop-color='#B4B4B4'
+					stopColor='#B4B4B4'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 			<radialGradient
@@ -2050,14 +2050,14 @@ export const SunnyAndCloudyIcon = ({ className }: SVGProps) => (
 				r='1'
 				gradientTransform='matrix(12.96927 15.7157 -18.09017 14.92878 6.428 8.403)'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#FFBB29' />
+				<stop stopColor='#FFBB29' />
 				<stop
 					offset='.481'
-					stop-color='#FCB224'
+					stopColor='#FCB224'
 				/>
 				<stop
 					offset='.99'
-					stop-color='#E47100'
+					stopColor='#E47100'
 				/>
 			</radialGradient>
 			<linearGradient
@@ -2068,12 +2068,12 @@ export const SunnyAndCloudyIcon = ({ className }: SVGProps) => (
 				y2='42.007'
 				gradientUnits='userSpaceOnUse'>
 				<stop
-					stop-color='#80868B'
-					stop-opacity='0'
+					stopColor='#80868B'
+					stopOpacity='0'
 				/>
 				<stop
 					offset='1'
-					stop-color='#80868B'
+					stopColor='#80868B'
 				/>
 			</linearGradient>
 			<linearGradient
@@ -2083,11 +2083,11 @@ export const SunnyAndCloudyIcon = ({ className }: SVGProps) => (
 				y1='24.583'
 				y2='32.76'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#81878C' />
+				<stop stopColor='#81878C' />
 				<stop
 					offset='1'
-					stop-color='#C3C5C6'
-					stop-opacity='0'
+					stopColor='#C3C5C6'
+					stopOpacity='0'
 				/>
 			</linearGradient>
 		</defs>
@@ -2100,7 +2100,7 @@ export const SunnyWithCloudyIcon = ({ className }: SVGProps) => (
 		width='49'
 		height='49'
 		fill='none'>
-		<g clip-path='url(#a)'>
+		<g clipPath='url(#a)'>
 			<path
 				fill='url(#b)'
 				d='M27.046 5.915a6.21 6.21 0 0 1 5.775 5.774 6.21 6.21 0 0 0 1.517 3.662 6.21 6.21 0 0 1 0 8.166 6.21 6.21 0 0 0-1.517 3.662 6.21 6.21 0 0 1-5.775 5.775 6.21 6.21 0 0 0-3.662 1.517 6.21 6.21 0 0 1-8.166 0 6.21 6.21 0 0 0-3.662-1.517 6.21 6.21 0 0 1-5.774-5.775 6.21 6.21 0 0 0-1.517-3.662 6.21 6.21 0 0 1 0-8.166 6.21 6.21 0 0 0 1.517-3.662 6.21 6.21 0 0 1 5.774-5.774 6.21 6.21 0 0 0 3.662-1.517 6.21 6.21 0 0 1 8.166 0 6.21 6.21 0 0 0 3.662 1.517Z'
@@ -2128,15 +2128,15 @@ export const SunnyWithCloudyIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.016'
-					stop-color='#FFBB29'
+					stopColor='#FFBB29'
 				/>
 				<stop
 					offset='.531'
-					stop-color='#FCB224'
+					stopColor='#FCB224'
 				/>
 				<stop
 					offset='.99'
-					stop-color='#E47100'
+					stopColor='#E47100'
 				/>
 			</radialGradient>
 			<radialGradient
@@ -2146,14 +2146,14 @@ export const SunnyWithCloudyIcon = ({ className }: SVGProps) => (
 				r='1'
 				gradientTransform='matrix(-15.37413 -15.50889 37.30803 -36.98386 42.135 45.321)'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#B4B4B4' />
+				<stop stopColor='#B4B4B4' />
 				<stop
 					offset='.298'
-					stop-color='#B4B4B4'
+					stopColor='#B4B4B4'
 				/>
 				<stop
 					offset='1'
-					stop-color='#E3E3E3'
+					stopColor='#E3E3E3'
 				/>
 			</radialGradient>
 			<linearGradient
@@ -2164,12 +2164,12 @@ export const SunnyWithCloudyIcon = ({ className }: SVGProps) => (
 				y2='46.01'
 				gradientUnits='userSpaceOnUse'>
 				<stop
-					stop-color='#80868B'
-					stop-opacity='0'
+					stopColor='#80868B'
+					stopOpacity='0'
 				/>
 				<stop
 					offset='1'
-					stop-color='#80868B'
+					stopColor='#80868B'
 				/>
 			</linearGradient>
 			<linearGradient
@@ -2179,11 +2179,11 @@ export const SunnyWithCloudyIcon = ({ className }: SVGProps) => (
 				y1='28.151'
 				y2='36.626'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#81878C' />
+				<stop stopColor='#81878C' />
 				<stop
 					offset='1'
-					stop-color='#C3C5C6'
-					stop-opacity='0'
+					stopColor='#C3C5C6'
+					stopOpacity='0'
 				/>
 			</linearGradient>
 			<clipPath id='a'>
@@ -2202,16 +2202,16 @@ export const SunnyWithRainIcon = ({ className }: SVGProps) => (
 		width='49'
 		height='49'
 		fill='none'>
-		<g clip-path='url(#a)'>
+		<g clipPath='url(#a)'>
 			<path
 				fill='url(#b)'
 				d='M27.04 5.521a6.21 6.21 0 0 1 5.775 5.775 6.21 6.21 0 0 0 1.517 3.662 6.21 6.21 0 0 1 0 8.166 6.21 6.21 0 0 0-1.517 3.662 6.21 6.21 0 0 1-5.775 5.774 6.21 6.21 0 0 0-3.662 1.517 6.21 6.21 0 0 1-8.166 0 6.21 6.21 0 0 0-3.662-1.517 6.21 6.21 0 0 1-5.774-5.774 6.21 6.21 0 0 0-1.517-3.662 6.21 6.21 0 0 1 0-8.166 6.21 6.21 0 0 0 1.517-3.662A6.21 6.21 0 0 1 11.55 5.52a6.21 6.21 0 0 0 3.662-1.517 6.21 6.21 0 0 1 8.166 0A6.21 6.21 0 0 0 27.04 5.52Z'
 			/>
 			<path
 				fill='url(#c)'
-				fill-rule='evenodd'
+				fillRule='evenodd'
 				d='M28.035 35.971c-.46 2.787.421 5.74 2.644 7.889 3.682 3.56 9.653 3.56 13.336 0 3.682-3.56 3.682-9.33 0-12.89a7.825 7.825 0 0 0-.06-.056l-6.419-6.204a9.805 9.805 0 0 1-.567.715 2.71 2.71 0 0 0-.662 1.598 9.71 9.71 0 0 1-8.272 8.948Z'
-				clip-rule='evenodd'
+				clipRule='evenodd'
 			/>
 		</g>
 		<defs>
@@ -2224,15 +2224,15 @@ export const SunnyWithRainIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.016'
-					stop-color='#FFBB29'
+					stopColor='#FFBB29'
 				/>
 				<stop
 					offset='.531'
-					stop-color='#FCB224'
+					stopColor='#FCB224'
 				/>
 				<stop
 					offset='.99'
-					stop-color='#E47100'
+					stopColor='#E47100'
 				/>
 			</radialGradient>
 			<linearGradient
@@ -2242,10 +2242,10 @@ export const SunnyWithRainIcon = ({ className }: SVGProps) => (
 				y1='24.526'
 				y2='45.646'
 				gradientUnits='userSpaceOnUse'>
-				<stop stop-color='#2E7AF5' />
+				<stop stopColor='#2E7AF5' />
 				<stop
 					offset='1'
-					stop-color='#0B57D0'
+					stopColor='#0B57D0'
 				/>
 			</linearGradient>
 			<clipPath id='a'>
@@ -2264,16 +2264,16 @@ export const SunnyWithSnowIcon = ({ className }: SVGProps) => (
 		width='49'
 		height='49'
 		fill='none'>
-		<g clip-path='url(#a)'>
+		<g clipPath='url(#a)'>
 			<path
 				fill='url(#b)'
 				d='M27.059 5.16a6.21 6.21 0 0 1 5.774 5.774 6.21 6.21 0 0 0 1.517 3.662 6.21 6.21 0 0 1 0 8.166 6.21 6.21 0 0 0-1.517 3.662 6.21 6.21 0 0 1-5.774 5.774 6.21 6.21 0 0 0-3.662 1.517 6.21 6.21 0 0 1-8.166 0 6.21 6.21 0 0 0-3.662-1.517 6.21 6.21 0 0 1-5.775-5.774 6.21 6.21 0 0 0-1.517-3.662 6.21 6.21 0 0 1 0-8.166 6.21 6.21 0 0 0 1.517-3.662 6.21 6.21 0 0 1 5.775-5.775 6.21 6.21 0 0 0 3.662-1.517 6.21 6.21 0 0 1 8.166 0 6.21 6.21 0 0 0 3.662 1.517Z'
 			/>
 			<path
 				fill='#757575'
-				fill-rule='evenodd'
+				fillRule='evenodd'
 				d='M31.927 34.147c-.13.085-.18.25-.201.404a4.586 4.586 0 0 0 0 1.298.538.538 0 0 1-.252.547l-1.102.636a.5.5 0 0 1-.379.05l-3.121-.836a.5.5 0 0 0-.613.354l-.44 1.642a.5.5 0 0 0 .354.612l2.075.556a.5.5 0 0 1 .353.612l-.556 2.075a.5.5 0 0 0 .354.612l1.642.44a.5.5 0 0 0 .612-.353l.837-3.122a.5.5 0 0 1 .233-.303l1.111-.642c.19-.11.426-.08.598.053.337.263.712.48 1.114.64a.538.538 0 0 1 .35.493v1.288a.5.5 0 0 1-.147.353l-2.285 2.285a.5.5 0 0 0 0 .707l1.202 1.202a.5.5 0 0 0 .707 0l1.519-1.518a.5.5 0 0 1 .707 0l1.519 1.518a.5.5 0 0 0 .707 0l1.202-1.202a.5.5 0 0 0 0-.707l-2.285-2.285a.5.5 0 0 1-.147-.353V39.9c0-.219.143-.41.345-.491a4.545 4.545 0 0 0 1.097-.638.538.538 0 0 1 .6-.055l1.131.654a.5.5 0 0 1 .233.303l.837 3.122a.5.5 0 0 0 .612.353l1.642-.44a.5.5 0 0 0 .354-.612l-.556-2.075a.5.5 0 0 1 .353-.612l2.075-.556a.5.5 0 0 0 .353-.612l-.44-1.642a.5.5 0 0 0-.612-.354l-3.121.837a.5.5 0 0 1-.38-.05l-1.134-.655a.538.538 0 0 1-.253-.546 4.585 4.585 0 0 0 .002-1.265.538.538 0 0 1 .252-.544l1.133-.654a.5.5 0 0 1 .38-.05l3.121.836a.5.5 0 0 0 .612-.353l.44-1.642a.5.5 0 0 0-.353-.613l-2.075-.556a.5.5 0 0 1-.353-.612l.556-2.075a.5.5 0 0 0-.354-.612l-1.642-.44a.5.5 0 0 0-.612.354L41 30.726a.5.5 0 0 1-.233.304l-1.124.65a.538.538 0 0 1-.6-.056 4.545 4.545 0 0 0-1.104-.643.538.538 0 0 1-.345-.491v-1.291a.5.5 0 0 1 .147-.354l2.285-2.285a.5.5 0 0 0 0-.707l-1.202-1.202a.5.5 0 0 0-.707 0l-1.52 1.519c-.113.113-.247.228-.264.388a2.934 2.934 0 0 0-.009.103 9.705 9.705 0 0 1-4.399 7.486Zm2.453 1.048a1.848 1.848 0 1 1 3.696 0 1.848 1.848 0 0 1-3.696 0Z'
-				clip-rule='evenodd'
+				clipRule='evenodd'
 			/>
 		</g>
 		<defs>
@@ -2286,15 +2286,15 @@ export const SunnyWithSnowIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.016'
-					stop-color='#FFBB29'
+					stopColor='#FFBB29'
 				/>
 				<stop
 					offset='.531'
-					stop-color='#FCB224'
+					stopColor='#FCB224'
 				/>
 				<stop
 					offset='.99'
-					stop-color='#E47100'
+					stopColor='#E47100'
 				/>
 			</radialGradient>
 			<clipPath id='a'>
@@ -2323,17 +2323,17 @@ export const TornadoIcon = ({ className }: SVGProps) => (
 			maskUnits='userSpaceOnUse'>
 			<path
 				fill='#fff'
-				fill-rule='evenodd'
+				fillRule='evenodd'
 				d='M21.01 39h5.49c0-1.47.43-2.84 1.16-4H19c0 1.64.79 3.09 2.01 4ZM44 3H7v4h33l4-4ZM21 31h13l4-4H21v4Zm-2.1-8H40c.87-1.16 1.5-2.52 1.8-4H14.9l4 4ZM8.67 11c.62 1.43 1.41 2.77 2.33 4h30.8c-.3-1.48-.93-2.84-1.8-4H8.67Z'
-				clip-rule='evenodd'
+				clipRule='evenodd'
 			/>
 		</mask>
 		<g mask='url(#a)'>
 			<path
 				fill='#8F8F8F'
-				fill-rule='evenodd'
+				fillRule='evenodd'
 				d='M7 3h37l-4 4H7V3Zm14 28h13l4-4H21v4Zm.01 8h5.49c0-1.47.43-2.84 1.16-4H19c0 1.64.79 3.09 2.01 4ZM8.67 11c.62 1.43 1.41 2.77 2.33 4h30.8c-.3-1.48-.93-2.84-1.8-4H8.67ZM40 23H18.9l-4-4h26.9c-.3 1.48-.93 2.84-1.8 4Z'
-				clip-rule='evenodd'
+				clipRule='evenodd'
 			/>
 		</g>
 		<mask
@@ -2346,15 +2346,15 @@ export const TornadoIcon = ({ className }: SVGProps) => (
 			{...{ 'mask-type': 'luminance' }}>
 			<path
 				fill='#fff'
-				fill-rule='evenodd'
+				fillRule='evenodd'
 				d='M21.01 39h5.49c0-1.47.43-2.84 1.16-4H19c0 1.64.79 3.09 2.01 4ZM44 3H7v4h33l4-4ZM21 31h13l4-4H21v4Zm-2.1-8H40c.87-1.16 1.5-2.52 1.8-4H14.9l4 4ZM8.67 11c.62 1.43 1.41 2.77 2.33 4h30.8c-.3-1.48-.93-2.84-1.8-4H8.67Z'
-				clip-rule='evenodd'
+				clipRule='evenodd'
 			/>
 		</mask>
 		<g
 			fill='#fff'
-			fill-rule='evenodd'
-			clip-rule='evenodd'
+			fillRule='evenodd'
+			clipRule='evenodd'
 			mask='url(#b)'
 			opacity='.2'>
 			<path d='M21 27.25h16.51L38 27H21v.25Zm20.68-8H15.4l-.5-.25h26.9l-.12.25ZM19 35l.03.25h8.34l.29-.25H19ZM8.67 11H40c.87 1.16 1.5 2.52 1.8 4l-.12-.25c-.33-1.29-.9-2.47-1.68-3.5H8.9L8.67 11ZM7 3v.25h36.5L44 3H7Z' />
@@ -2369,17 +2369,17 @@ export const TornadoIcon = ({ className }: SVGProps) => (
 			{...{ 'mask-type': 'luminance' }}>
 			<path
 				fill='#fff'
-				fill-rule='evenodd'
+				fillRule='evenodd'
 				d='M21.01 39h5.49c0-1.47.43-2.84 1.16-4H19c0 1.64.79 3.09 2.01 4ZM44 3H7v4h33l4-4ZM21 31h13l4-4H21v4Zm-2.1-8H40c.87-1.16 1.5-2.52 1.8-4H14.9l4 4ZM8.67 11c.62 1.43 1.41 2.77 2.33 4h30.8c-.3-1.48-.93-2.84-1.8-4H8.67Z'
-				clip-rule='evenodd'
+				clipRule='evenodd'
 			/>
 		</mask>
 		<g mask='url(#c)'>
 			<path
 				fill='#8F8F8F'
-				fill-rule='evenodd'
+				fillRule='evenodd'
 				d='m44 3-.5.25-3.5 3.5H7V7h33l4-4ZM26.5 38.75h-5.49a4.993 4.993 0 0 1-1.98-3.5L19 35c0 1.64.79 3.09 2.01 4h5.49c0-1.47.43-2.84 1.16-4l-.28.25a7.385 7.385 0 0 0-.88 3.5Zm-5.5-8h13l3.49-3.49L38 27l-4 4H21v-.25Zm20.68-11.5c-.33 1.28-.91 2.47-1.68 3.5H18.9l-3.5-3.5-.5-.25 4 4H40c.87-1.16 1.5-2.52 1.8-4l-.12.25ZM11 15c-.92-1.23-1.71-2.57-2.33-4l.23.25c.58 1.24 1.28 2.41 2.1 3.5h30.68l.12.25H11Z'
-				clip-rule='evenodd'
+				clipRule='evenodd'
 			/>
 		</g>
 		<path
@@ -2388,9 +2388,9 @@ export const TornadoIcon = ({ className }: SVGProps) => (
 		/>
 		<path
 			fill='#BBB'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M39 45a7.5 7.5 0 0 0-15 0M9 45a7.5 7.5 0 0 1 15 0'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 	</svg>
 );
@@ -2403,9 +2403,9 @@ export const TropicalStormHurricaneIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='#757575'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M24 39c-9.539 0-15.962-7.19-18.993-11.578a5.821 5.821 0 0 1-.024-6.636C8.003 16.336 14.436 9 24 9c9.565 0 15.996 7.337 19.017 11.786a5.821 5.821 0 0 1-.024 6.636C39.962 31.81 33.539 39 24 39Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#757575'
@@ -2430,18 +2430,18 @@ export const VeryColdIcon = ({ className }: SVGProps) => (
 		width='48'
 		height='48'
 		fill='none'>
-		<g clip-path='url(#a)'>
+		<g clipPath='url(#a)'>
 			<path
 				fill='#ABABAB'
-				fill-rule='evenodd'
+				fillRule='evenodd'
 				d='M37 3a6.91 6.91 0 0 0-6.918 6.91v18.428c0 .158 0 .303.013.462C28.191 30.623 27 33.173 27 36.013 27 41.522 31.471 46 37 46c5.53 0 10-4.465 10-9.987 0-2.84-1.19-5.403-3.095-7.213.013-.159.013-.304.013-.462V9.909C43.931 6.091 40.823 3 37 3Z'
-				clip-rule='evenodd'
+				clipRule='evenodd'
 			/>
 			<path
 				fill='#fff'
-				fill-rule='evenodd'
+				fillRule='evenodd'
 				d='M37 5.51a3.746 3.746 0 0 0-3.743 3.739v20.978a6.907 6.907 0 0 0-3.175 5.812A6.91 6.91 0 0 0 37 42.95a6.91 6.91 0 0 0 6.918-6.91c0-2.43-1.27-4.584-3.175-5.812V9.249C40.757 7.188 39.077 5.51 37 5.51Z'
-				clip-rule='evenodd'
+				clipRule='evenodd'
 			/>
 			<path
 				fill='#0B57D0'
@@ -2475,15 +2475,15 @@ export const VeryHotIcon = ({ className }: SVGProps) => (
 		fill='none'>
 		<path
 			fill='#ABABAB'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M35.577 4a6.5 6.5 0 0 0-6.5 6.5v19.358A9.971 9.971 0 0 0 26 37.076c0 5.523 4.477 10 10 10s10-4.477 10-10a9.97 9.97 0 0 0-3.077-7.215V10.5a6.5 6.5 0 0 0-6.5-6.5h-.846Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<path
 			fill='#fff'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M36.001 6.513a3.75 3.75 0 0 0-3.75 3.75V31.27a6.923 6.923 0 1 0 7.5 0V10.262a3.75 3.75 0 0 0-3.75-3.75Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<rect
 			width='7.5'
@@ -2503,9 +2503,9 @@ export const VeryHotIcon = ({ className }: SVGProps) => (
 		/>
 		<path
 			fill='url(#a)'
-			fill-rule='evenodd'
+			fillRule='evenodd'
 			d='M24.903 44.17a7.92 7.92 0 0 1-8.983-.996 7.918 7.918 0 0 0-4.67-1.934 7.918 7.918 0 0 1-7.363-7.363 7.919 7.919 0 0 0-1.935-4.67 7.918 7.918 0 0 1 0-10.413 7.919 7.919 0 0 0 1.935-4.67 7.918 7.918 0 0 1 7.363-7.363 7.919 7.919 0 0 0 4.67-1.934 7.918 7.918 0 0 1 10.413 0c.212.184.432.357.66.517a9.186 9.186 0 0 0-.779 3.718V27.62c-2.214 3.414-3.088 5.893-3.088 10.031 0 2.395.599 4.628 1.777 6.519Z'
-			clip-rule='evenodd'
+			clipRule='evenodd'
 		/>
 		<defs>
 			<radialGradient
@@ -2517,15 +2517,15 @@ export const VeryHotIcon = ({ className }: SVGProps) => (
 				gradientUnits='userSpaceOnUse'>
 				<stop
 					offset='.064'
-					stop-color='#FFD323'
+					stopColor='#FFD323'
 				/>
 				<stop
 					offset='.62'
-					stop-color='#EA6A16'
+					stopColor='#EA6A16'
 				/>
 				<stop
 					offset='1'
-					stop-color='#EA4335'
+					stopColor='#EA4335'
 				/>
 			</radialGradient>
 		</defs>

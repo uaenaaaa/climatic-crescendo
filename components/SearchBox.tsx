@@ -1,21 +1,20 @@
 'use client';
-import React from 'react';
+import React, { Suspense } from 'react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { LocateFixed } from 'lucide-react';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { useDebouncedCallback } from 'use-debounce';
+import LocateUserButton from './LocateUserButton';
+import { Skeleton } from './ui/skeleton';
 
 const SearchBox = () => {
 	const searchParams = useSearchParams();
 	const pathname = usePathname();
 	const { replace } = useRouter();
 	const handleCitySearch = useDebouncedCallback((city: string) => {
-		const cityParams = new URLSearchParams(searchParams);
+		const cityParams = new URLSearchParams();
 		if (city) {
 			cityParams.set('city', city);
-		} else {
-			cityParams.delete('city');
 		}
 		replace(`${pathname}?${cityParams.toString()}`);
 	}, 1000);
@@ -27,11 +26,16 @@ const SearchBox = () => {
 				placeholder='Search city...'
 			/>
 			<Button>Search</Button>
-			<Button variant={'ghost'}>
-				<LocateFixed />
-			</Button>
+			<LocateUserButton />
 		</div>
 	);
 };
 
+// const SearchBoxContainer = () => {
+// 	return (
+// 		<Suspense fallback={<Skeleton />}>
+// 			<SearchBox />
+// 		</Suspense>
+// 	);
+// };
 export default SearchBox;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardContent, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const GeographicalInfo = ({
 	lat,
@@ -18,14 +18,16 @@ const GeographicalInfo = ({
 }) => {
 	return (
 		<Card>
-			<CardContent>
+			<CardHeader>
 				<CardTitle>Geographical Information</CardTitle>
+			</CardHeader>
+			<CardContent>
 				<h1>Latitude: {lat}</h1>
 				<h1>Longitude: {lon}</h1>
 				<h1>Timezone: {timezone}</h1>
 				<h1>Country: {country}</h1>
 				<h1>City: {city}</h1>
-				<h1>{localtime}</h1>
+				<h1>Local Time & Date: {localtime}</h1>
 			</CardContent>
 		</Card>
 	);

@@ -1,4 +1,4 @@
-import { Card, CardContent, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import React from 'react';
 
 const VisibilityInfo = ({
@@ -10,8 +10,10 @@ const VisibilityInfo = ({
 }) => {
 	return (
 		<Card>
-			<CardContent>
+			<CardHeader>
 				<CardTitle>Visibility</CardTitle>
+			</CardHeader>
+			<CardContent>
 				<h1>{visibility_km} km</h1>
 				<h1>{visibility_mi} mi</h1>
 			</CardContent>

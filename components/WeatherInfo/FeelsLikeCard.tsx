@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardContent, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const FeelsLikeCard = ({
 	feelslike_c,
@@ -10,8 +10,10 @@ const FeelsLikeCard = ({
 }) => {
 	return (
 		<Card>
-			<CardContent>
+			<CardHeader>
 				<CardTitle>Feels Like</CardTitle>
+			</CardHeader>
+			<CardContent>
 				<h1>{feelslike_c}°C</h1>
 				<h1>{feelslike_f}°F</h1>
 			</CardContent>

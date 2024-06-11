@@ -1,7 +1,6 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import WeatherDegreeIcon from '@/components/WeatherInfo/WeatherDegreeIcon';
-import { Suspense } from 'react';
 import { Skeleton } from '@/components/ui/skeleton';
 import { useSearchParams } from 'next/navigation';
 import axios from 'axios';
@@ -65,15 +64,25 @@ const WeatherInfoContainer = () => {
 	const [data, setData] = useState<WeatherResponse | null>(null);
 	const searchParams = useSearchParams();
 	const city = searchParams.get('city');
+	const lat = searchParams.get('lat');
+	const lon = searchParams.get('lon');
 	const weatherBaseURL = 'http://api.weatherapi.com/v1';
 	const weatherAPIKey = process.env.NEXT_PUBLIC_WEATHER_API;
-	const weatherAPIURL = `${weatherBaseURL}/current.json?key=${weatherAPIKey}&q=${city}`;
+	let weatherAPIURL = '';
+
+	if (city) {
+		weatherAPIURL = `${weatherBaseURL}/current.json?key=${weatherAPIKey}&q=${city}`;
+	} else if (lat && lon) {
+		weatherAPIURL = `${weatherBaseURL}/current.json?key=${weatherAPIKey}&q=${lat},${lon}`;
+	}
 
 	useEffect(() => {
 		const fetchWeather = async () => {
 			try {
-				const res = await axios.get(weatherAPIURL);
-				setData(res.data);
+				if (weatherAPIURL) {
+					const res = await axios.get(weatherAPIURL);
+					setData(res.data);
+				}
 			} catch (err) {
 				console.error(err);
 			}
@@ -87,7 +96,7 @@ const WeatherInfoContainer = () => {
 	}
 
 	return (
-		<Suspense fallback={<Skeleton />}>
+		<div className='grid grid-cols-2 mt-5 md:grid-cols-3 gap-4'>
 			<GeographicalInfo
 				lat={data.location.lat}
 				lon={data.location.lon}
@@ -132,7 +141,7 @@ const WeatherInfoContainer = () => {
 			/>
 
 			<UVInfo uv_index={data.current.uv} />
-		</Suspense>
+		</div>
 	);
 };
 

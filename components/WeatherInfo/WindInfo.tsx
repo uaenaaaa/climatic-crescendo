@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardContent, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const WindInfo = ({
 	wind_mph,
@@ -14,8 +14,10 @@ const WindInfo = ({
 }) => {
 	return (
 		<Card>
-			<CardContent>
+			<CardHeader>
 				<CardTitle>Wind</CardTitle>
+			</CardHeader>
+			<CardContent>
 				<h1>{wind_direction}</h1>
 				<h1>{wind_mph} mph</h1>
 				<h1>{wind_kph} kph</h1>
