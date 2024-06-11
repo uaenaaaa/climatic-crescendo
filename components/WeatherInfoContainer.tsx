@@ -9,6 +9,10 @@ import HumidityCard from '@/components/WeatherInfo/HumidityCard';
 import FeelsLikeCard from '@/components/WeatherInfo/FeelsLikeCard';
 import WindInfo from '@/components/WeatherInfo/WindInfo';
 import UVInfo from '@/components/WeatherInfo/UVInfo';
+import GeographicalInfo from './WeatherInfo/GeographicalInfo';
+import PressureInfo from './WeatherInfo/PressureInfo';
+import VisibilityInfo from './WeatherInfo/VisibilityInfo';
+import PrecipitationCard from './WeatherInfo/PrecipitationCard';
 
 interface Condition {
 	text: string;
@@ -22,6 +26,9 @@ interface Location {
 	country: string;
 	lat: number;
 	lon: number;
+	tz_id: string;
+	localtime_epoch: number;
+	localtime: string;
 }
 
 interface Current {
@@ -81,8 +88,17 @@ const WeatherInfoContainer = () => {
 
 	return (
 		<Suspense fallback={<Skeleton />}>
+			<GeographicalInfo
+				lat={data.location.lat}
+				lon={data.location.lon}
+				timezone={data.location.tz_id}
+				country={data.location.country}
+				city={data.location.name}
+				localtime={data.location.localtime}
+			/>
 			<WeatherDegreeIcon
-				temperature={data.current.feelslike_c}
+				local_time={data.location.localtime}
+				temperature={data.current.temp_c}
 				condition={data.current.condition.text}
 				code={data.current.condition.code}
 			/>
@@ -98,6 +114,21 @@ const WeatherInfoContainer = () => {
 				wind_kph={data.current.wind_kph}
 				wind_degree={data.current.wind_degree}
 				wind_direction={data.current.wind_dir}
+			/>
+
+			<PressureInfo
+				pressure_in={data.current.pressure_in}
+				pressure_mb={data.current.pressure_mb}
+			/>
+
+			<VisibilityInfo
+				visibility_km={data.current.vis_km}
+				visibility_mi={data.current.vis_miles}
+			/>
+
+			<PrecipitationCard
+				precipitation_mm={data.current.precip_mm}
+				precipitation_in={data.current.precip_in}
 			/>
 
 			<UVInfo uv_index={data.current.uv} />
