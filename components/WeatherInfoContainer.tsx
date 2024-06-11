@@ -66,7 +66,7 @@ const WeatherInfoContainer = () => {
 	const city = searchParams.get('city');
 	const lat = searchParams.get('lat');
 	const lon = searchParams.get('lon');
-	const weatherBaseURL = 'http://api.weatherapi.com/v1';
+	const weatherBaseURL = 'https://api.weatherapi.com/v1';
 	const weatherAPIKey = process.env.NEXT_PUBLIC_WEATHER_API;
 	let weatherAPIURL = '';
 
