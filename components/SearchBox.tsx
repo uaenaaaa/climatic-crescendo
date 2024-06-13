@@ -1,12 +1,10 @@
 'use client';
-import React, { Suspense } from 'react';
+import React from 'react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { useDebouncedCallback } from 'use-debounce';
 import LocateUserButton from './LocateUserButton';
-import { Skeleton } from './ui/skeleton';
-
 const SearchBox = () => {
 	const searchParams = useSearchParams();
 	const pathname = usePathname();
@@ -30,12 +28,4 @@ const SearchBox = () => {
 		</div>
 	);
 };
-
-// const SearchBoxContainer = () => {
-// 	return (
-// 		<Suspense fallback={<Skeleton />}>
-// 			<SearchBox />
-// 		</Suspense>
-// 	);
-// };
 export default SearchBox;

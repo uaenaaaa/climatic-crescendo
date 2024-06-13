@@ -69,11 +69,14 @@ const WeatherInfoContainer = () => {
 	const weatherBaseURL = 'https://api.weatherapi.com/v1';
 	const weatherAPIKey = process.env.NEXT_PUBLIC_WEATHER_API;
 	let weatherAPIURL = '';
+	let tenDaysForecastAPIURL = '';
 
 	if (city) {
 		weatherAPIURL = `${weatherBaseURL}/current.json?key=${weatherAPIKey}&q=${city}`;
+		tenDaysForecastAPIURL = `${weatherBaseURL}/forecast.json?key=${weatherAPIKey}&q=${city}&days=10`;
 	} else if (lat && lon) {
 		weatherAPIURL = `${weatherBaseURL}/current.json?key=${weatherAPIKey}&q=${lat},${lon}`;
+		tenDaysForecastAPIURL = `${weatherBaseURL}/forecast.json?key=${weatherAPIKey}&q=${lat},${lon}&days=10`;
 	}
 
 	useEffect(() => {
