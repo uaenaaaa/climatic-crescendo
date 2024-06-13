@@ -1,3 +1,5 @@
 {
-	"svg.preview.background": "white"
+	"svg.preview.background": "white",
+	"IDX.aI.enableInlineCompletion": true,
+	"IDX.aI.enableCodebaseIndexing": true
 }
